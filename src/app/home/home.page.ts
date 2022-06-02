@@ -62,7 +62,7 @@ export class HomePage {
 
       this.FileName = file.name;
 
-      const fileStoragePath = `filesStorage/${new Date().getTime()}_${file.name}`;
+      const fileStoragePath = `GuachaminDaniel/${new Date().getTime()}_${file.name}`;
 
       const imageRef = this.angularFireStorage.ref(fileStoragePath);
 
